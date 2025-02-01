@@ -1,0 +1,67 @@
+name: flurbo_rick_and_morty_details_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  animated_text_kit: ^4.2.2
+  animations: ^2.0.11
+  build_runner: ^2.4.14
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.4
+  flutter_offline: ^4.0.0
+  flutter_svg: ^2.0.17
+  freezed: ^2.5.7
+  freezed_annotation: ^2.4.4
+  get_it: ^8.0.3
+  json_annotation: ^4.9.0
+  json_serializable: ^6.9.0
+  logger: ^2.5.0
+  retrofit: ^4.4.2
+  retrofit_generator: ^9.1.7
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter_native_splash:
+  color: "#E7F6F2"   # Color of the background of the splash screen 
+  image: assets/images/splash_screen.png  # image path
+  android_12:
+    image: assets/images/splash_screen.png  # image path
+    color: "#E7F6F2"   # Color of the background of the splash screen 
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"  # Logo image path 
+  min_sdk_android: 21
+
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
